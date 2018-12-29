@@ -6,7 +6,7 @@ let config: IConfigOptions =  {
     serve: {
         port: (process.env.EXPOSE_PORT && parseInt(process.env.EXPOSE_PORT)) || 8080,
     },
-    keys: ['some secret hurr'],
+    keys: ['sJLIgP0iJchKLz7pxlYHTOxmZRwdTjn4kVst7q7pOxEN41eqA4sV5pM3'],
     session: {
         key: 'rap2:sess',
     },
