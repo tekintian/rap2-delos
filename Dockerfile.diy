@@ -1,0 +1,8 @@
+FROM node:8.15.0-alpine
+LABEL maintainer="TekinTian <tekintian@gmail.com>"
+
+ENV NGINX_VERSION 1.15.7
+
+WORKDIR /app
+#ADD . /tmp
+#RUN /bin/sh -c 'cd /tmp && npm install && npm install -g typescript && npm run build && mv ./dist/* /app/ && mv ./node_modules /app/ && cp -a package.json /app/package.json && rm -rf /tmp'
